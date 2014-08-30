@@ -1,0 +1,7 @@
+---
+
+- name: config template httpd on
+  template: >
+    src=motd.j2
+    dest=/etc/motd
+  sudo: yes
